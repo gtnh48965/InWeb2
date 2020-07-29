@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  background-color: #000027;
+  color: #a7a7a7;
+  font-size: 12px;
+margin-top: auto;
+margin-bottom: 5px;
+
+   flex: 0 0 auto;
+}
+.foo {
+  margin-left: 190px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.page-footer a,
+p {
+  color: #a7a7a7;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.page-footer h5 {
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: normal;
+}
+.border-r {
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+.create-inweb{
+  padding-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  /*xs-sm*/
+  .row {
+    text-align: center;
+    margin: auto;
+  }
+  .border-r {
+    border-right: 0px solid transparent;
+  }
+  .container {
+    padding-bottom: 3%;
+  }
+  .create-inweb{
+    padding-top: 0px;
+  }
+}
+
+
+/*
+.footer-email {
+    padding-left: 30px;
+    background-image: url("../static/img/icon-phone-footer");
+  }
+  
+  .footer-phone {
+    padding-left: 25px;
+    background-image: url("../img/icon-phone-footer.svg");
+  }
+*/
+@media screen and (max-width: 580px) {
+  .sait {
+    display: none;
+  }
+}
+@media (min-width: 582px) and (max-width: 1365px){
+  .sait_2{ visibility: hidden }
+}
+@media screen and (min-width: 1366px) {
+  .sait {
+    display: none;
+  }
+}

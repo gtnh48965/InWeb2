@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.3s;
+}
+a:hover {
+  background-size: 100% 2px;
+}
+header {
+  width: 100%;
+  background-color: #000027;
+  display: flex;
+  /*position: fixed;*/
+}
+nav {
+  margin-top: 11px;
+  margin-bottom: 20px;
+  margin-left: 60%;
+}
+.topnav a {
+  color: #ffffff;
+  text-align: center;
+  padding: 11px 40px;
+  font-size: 15px;
+  line-height: 18px;
+}
+a:visited {
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+.second-a-menu {
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+@media screen and (max-width: 1385px) {
+  nav {
+    margin-left: 55%;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  nav {
+    margin-left: 50%;
+  }
+}
+@media screen and (max-width: 1060px) {
+  nav {
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+
+    display: block;
+    color: #ffffff;
+    font-size: 25px;
+  }
+  nav {
+    width: 100%;
+  }
+  .topnav.responsive {
+    position: relative;
+    top: 50px;
+    left: -200px;
+  }
+  header .topnav.responsive {
+    height: 170px;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    top: -50px;
+    right: -200px;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .second-a-menu {
+    border: none;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
