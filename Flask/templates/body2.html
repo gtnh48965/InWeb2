@@ -22,7 +22,18 @@
 <div class="con_1 container">
 <div>Разработка технической и эксплуатационной документации</div>
    <div class="row">
-    <div class="zag col-xl-5 col-sm-12 col-md-5">
+       <div class="btn-group col-xl-12">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+    Right-aligned but left aligned when large screen
+  </button>
+  <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left">
+    <button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+</div>
+    <div class="zag col-xl-4 col-sm-12 col-md-4">
+
         <hr/>
         <div class="text" style="">Разработка&#160;технической и эксплуатационной документации</div>
         <hr/>
@@ -41,12 +52,16 @@
         <div class="text">Дополнительные&#160;слуги партнерам</div>
         <hr/>
     </div>
-       <div class="colo col-xl-2 col-sm-12 col-md-2"><button type="button"  data-toggle="modal" data-target="#staticBackdrop">Колонка 1</button></div>
-       <div class="colo col-xl-2 col-sm-12 col-md-2"><button type="button"  data-toggle="modal" data-target="#staticBackdrop">Колонка 1</button></div>
-       <div class="colo col-xl-2 col-sm-12 col-md-2"><button type="button"  data-toggle="modal" data-target="#staticBackdrop">Колонка 1</button></div>
-<button type="button"  data-toggle="modal" data-target="#staticBackdrop">
-  Запустить статический фон модального окна
-</button>
+
+       <div class="parent col-xl-7 col-sm-12 col-md-7">
+    <div class="colo"><button type="button" data-toggle="modal" data-target="#staticBackdrop">Колонка 1</button></div>
+        <div class="colo"><button type="button" data-toggle="modal" data-target="#staticBackdrop">Колонка 1</button></div>
+<div class="colo"><button type="button" data-toggle="modal" data-target="#staticBackdrop">Колонка 1</button></div>
+        <div class="colo"><button type="button" data-toggle="modal" data-target="#staticBackdrop">Колонка 1</button></div>
+</div>
+
+
+ </div>
 
 <!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">

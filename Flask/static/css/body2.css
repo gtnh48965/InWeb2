@@ -42,9 +42,12 @@ padding: 0}
 .colo {
     background-color: #eee;
     text-align: center;
-    margin-left: 2%;
+    /*margin-left: 2%;*/
     padding: 5px;
-
+    width: 328px;
+height: 600px;
+display: inline-block;
+    vertical-align: top;
     /*font-size: 0rem;*/
 
    }
@@ -66,14 +69,16 @@ font-style: normal;
     background: #FBF7F7;
 /*border: 1px solid #949090;*/
 box-sizing: border-box;
-    padding-left: 5%;
-    padding-right: 5%;
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
 
 }
 @media (max-width: 768px){
 .colo{
     margin-top:3%;
+
 }
+
 
 }
 .con_1{margin: 10%}
@@ -81,5 +86,41 @@ box-sizing: border-box;
 .container{
     width: auto;
 }
+
+}
+.colon{
+    width: 100%;
+    height: 100%;
+}
+
+.parent {
+    /*width: 400px;*/
+    /*height:80px;*/
+    overflow: hidden;
+    overflow-x: scroll;
+    /*margin-left: 3%;*/
+    white-space:nowrap;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .parent {
+
+    white-space:inherit;
+}
+    .zag{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 768px) {
+    .parent {
+
+    margin-left: 3%;
+}
+.btn-group{
+        display: none;
+    }
 
 }
