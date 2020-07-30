@@ -33,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="Ana-0.1" />
+        <entry key="$PROJECT_DIR$/.." value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -231,6 +231,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="705" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.822@0.23.1440.822" timestamp="1596123642715" />
+    <state x="742" y="138" key="git4idea.branch.GitSmartOperationDialog" timestamp="1596150925157">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="742" y="138" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.822@0.23.1440.822" timestamp="1596150925157" />
     <state x="438" y="169" width="670" height="676" key="search.everywhere.popup" timestamp="1595689987312">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
