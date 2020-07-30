@@ -67,8 +67,11 @@
       <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.untitled">
+  <component name="RunManager" selected="JavaScript Debug.body.html">
     <configuration name="body2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/untitled/templates/body2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="body.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Flask/templates/body.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="footer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/untitled/templates/footer.html" useBuiltInWebServerPort="true">
@@ -109,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.body.html" />
         <item itemvalue="JavaScript Debug.header.html" />
         <item itemvalue="JavaScript Debug.footer.html" />
         <item itemvalue="JavaScript Debug.body2.html" />
         <item itemvalue="Flask server.Flask (app.py)" />
-        <item itemvalue="JavaScript Debug.header.html" />
       </list>
     </recent_temporary>
   </component>
