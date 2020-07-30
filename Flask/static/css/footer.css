@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+}
+
 .footer {
   background-color: #000027;
   color: #a7a7a7;
@@ -79,3 +83,4 @@ p {
     display: none;
   }
 }
+
