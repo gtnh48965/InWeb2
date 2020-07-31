@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68cf96bb-c7d6-42c0-bb6c-43e91c6bd680" name="Default Changelist" comment="">
+    <list default="true" id="68cf96bb-c7d6-42c0-bb6c-43e91c6bd680" name="Default Changelist" comment="*1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/body2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,16 +61,17 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/images" />
-      <recent name="$PROJECT_DIR$/static/css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/static" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/static/css" />
+    </key>
   </component>
-  <component name="RunManager" selected="Flask server.untitled">
+  <component name="RunManager" selected="JavaScript Debug.body2.html (1)">
     <configuration name="body2.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Flask/templates/body2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.body2.html (1)" />
+        <item itemvalue="JavaScript Debug.body.html" />
         <item itemvalue="JavaScript Debug.header.html" />
         <item itemvalue="JavaScript Debug.footer.html" />
-        <item itemvalue="JavaScript Debug.body2.html (1)" />
         <item itemvalue="JavaScript Debug.body2.html" />
-        <item itemvalue="JavaScript Debug.body.html" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +129,7 @@
       <workItem from="1596044856930" duration="83000" />
       <workItem from="1596044956470" duration="7716000" />
       <workItem from="1596151736933" duration="67000" />
+      <workItem from="1596151932017" duration="295000" />
     </task>
     <task id="LOCAL-00001" summary="*">
       <created>1596123662845</created>
@@ -151,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596138424149</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="*1">
+      <created>1596151950878</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596151950878</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,10 +175,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="595" y="99" key="#Inspections/0.23.1440.822@0.23.1440.822" timestamp="1595804979179" />
-    <state x="491" y="23" key="CommitChangelistDialog2" timestamp="1596138424010">
+    <state x="491" y="23" key="CommitChangelistDialog2" timestamp="1596152041325">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="491" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1596138424010" />
+    <state x="491" y="23" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1596152041325" />
     <state width="847" height="252" key="GridCell.Tab.0.bottom" timestamp="1596151809733">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -219,18 +227,18 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state width="1011" height="263" key="GridCell.Tab.2.right/0.23.1440.822@0.23.1440.822" timestamp="1595717709290" />
-    <state x="507" y="158" key="Vcs.Push.Dialog.v2" timestamp="1596123667043">
+    <state x="507" y="158" key="Vcs.Push.Dialog.v2" timestamp="1596228805874">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="507" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1596123667043" />
+    <state x="507" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1596228805874" />
     <state x="705" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596123642715">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="705" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.822@0.23.1440.822" timestamp="1596123642715" />
-    <state x="742" y="138" key="git4idea.branch.GitSmartOperationDialog" timestamp="1596151107943">
+    <state x="742" y="138" key="git4idea.branch.GitSmartOperationDialog" timestamp="1596228701155">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="742" y="138" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.822@0.23.1440.822" timestamp="1596151107943" />
+    <state x="742" y="138" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.822@0.23.1440.822" timestamp="1596228701155" />
     <state x="438" y="169" width="670" height="676" key="search.everywhere.popup" timestamp="1595689987312">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
