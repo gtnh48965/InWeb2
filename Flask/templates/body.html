@@ -14,12 +14,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../static/css/body.css" />
+     <link rel="stylesheet" href="../static/css/footer.css" />
+     <link rel="stylesheet" href="../static/css/header.css" />
   </head>
 
 <body>
-{% include 'header.html' %}
 
-<main>
+
+
+    {% include 'header.html' %}
   <div class="section__carousel">
       <div
   id="carouselExampleIndicators"
@@ -64,8 +67,10 @@
     <span class="sr-only">Next</span>
   </a>
   </div>
+
   </div>
-    </div>
+
+
 
 
   <section class="section__benefit">
@@ -103,8 +108,25 @@
       </div>    
     </div>
   </section>
+     <div class="imagess">
+  </div>
+<div style="margin: 5%">
+    <div class="services row ">
+    <div class="dlin row">
+        <div class="element"><div class="hed"></div></div>
+        <div class="element"><div class="hed"></div></div>
+        <div class="element"><div class="hed"></div></div>
+    </div>
+        <div class="dlin row">
+        <div class="element"><div class="hed"></div></div>
+        <div class="element"><div class="hed"></div></div>
+        <div class="element"><div class="hed"></div></div>
+{#    </div>#}
+    </div>
+  </div>
+</div>
  
-  
+   {% include 'footer.html' %}
 </main>
 
 
@@ -130,7 +152,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
 
-  {% include 'footer.html' %}
+
 
 </body>
 </html>
