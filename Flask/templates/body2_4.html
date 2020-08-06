@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>System's Footer</title>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+           crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/css/body2.css" />
+     <link rel="stylesheet" href="../static/css/footer.css" />
+     <link rel="stylesheet" href="../static/css/header.css" />
+  </head>
+
+<body>
+{% include 'header.html' %}
+<h1 class="body2__header">Сертификация и Декларирование</h1>
+
+<div class="con_1 container">
+
+   <div class="row">
+       <div class="btn-group col-sm-12 col-md-12 col-12">
+  <button  type="button" class=" dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+    Right-aligned but left aligned when large screen
+  </button>
+  <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left">
+    <button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+</div>
+    <div class="zag col-xl-4 col-sm-12 col-md-4">
+
+        <hr/>
+        <div class="text link-left-menu"><a href="body2.html" class="a-link-left-menu">Разработка&#160;технической и эксплуатационной документации</a></div>
+        <hr/>
+        <div class="text link-left-menu"><a href="body2_2.html" class="a-link-left-menu">Разработка&#160;паспорта безопасности на химическую продукцию</a></div>
+                <hr/>
+
+        <div class="text link-left-menu"><a href="body2_3.html" class="a-link-left-menu">Разработка документации ХАССП</a></div>
+                <hr/>
+
+        <div class="text active-link-left-menu link-left-menu"><a href="body2_4.html" class="a-link-left-menu">Сертификация и Декларирование</a></div>
+                <hr/>
+
+        <div class="text link-left-menu"><a href="body2_5.html" class="a-link-left-menu">Повышение квалификации</a></div>
+                <hr/>
+
+        <div class="text link-left-menu"><a href="body2_6.html" class="a-link-left-menu">Дополнительные&#160;слуги партнерам</a></div>
+    </div>
+
+       <div class="parent col-xl-7 col-sm-12 col-md-7">
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_1"><img src="" alt="" class="body2_img"></button></div>
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_2"><img src="" alt="" class="body2_img"></button></div>
+
+      </div>
+
+
+ </div>
+
+<!-- Modal 1-->
+<div class="modal fade" id="staticBackdrop_1" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Просмотр документа</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe src="" style="width: 95%; height: 600px;"></iframe>
+      </div>
+      
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2-->
+<div class="modal fade" id="staticBackdrop_2" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Просмотр документа</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe src="" style="width: 95%; height: 600px;"></iframe>
+      </div>
+      
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+   </div>
+</div>
+{% include 'footer.html' %}
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</body>
+
+
+</html>
