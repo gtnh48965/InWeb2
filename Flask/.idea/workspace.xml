@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="68cf96bb-c7d6-42c0-bb6c-43e91c6bd680" name="Default Changelist" comment="закночли адаптивность и первый слайд 12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/body.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/body2.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/body2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/body2_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/body.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +166,7 @@
       <workItem from="1596151736933" duration="67000" />
       <workItem from="1596151932017" duration="295000" />
       <workItem from="1596229778149" duration="820000" />
-      <workItem from="1596234464361" duration="68914000" />
+      <workItem from="1596234464361" duration="69606000" />
     </task>
     <task id="LOCAL-00001" summary="*">
       <created>1596123662845</created>
@@ -250,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597182523950</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="закночли адаптивность и первый слайд 12">
+      <created>1597193257775</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597193257775</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,10 +278,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="513" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.822@0.23.1440.822" timestamp="1596246292244" />
-    <state x="171" y="49" key="CommitChangelistDialog2" timestamp="1597182643779">
+    <state x="171" y="49" key="CommitChangelistDialog2" timestamp="1597193694074">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="171" y="49" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1597182643779" />
+    <state x="171" y="49" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1597193694074" />
     <state x="12" y="107" key="DiffContextDialog" timestamp="1597182632130">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -340,10 +342,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="0" y="123" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1596979093867" />
-    <state x="507" y="158" key="Vcs.Push.Dialog.v2" timestamp="1597182685517">
+    <state x="507" y="158" key="Vcs.Push.Dialog.v2" timestamp="1597193699555">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="507" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1597182685517" />
+    <state x="507" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1597193699555" />
     <state x="705" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596849450709">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
