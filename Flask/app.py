@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
+
     return render_template('body.html')
 
 @app.route('/documents/1')

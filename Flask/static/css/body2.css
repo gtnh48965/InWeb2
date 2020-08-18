@@ -1,13 +1,16 @@
 /*html, body {margin: 0;}*/
 
-body {
+html, body {
   width: 100%;
   height: 100%;
-  display: flex;
-
+display: flex;
   flex-direction: column;
   background: rgba(0, 0, 85, 1) url(../img/body22.png);
 }
+.con{
+   width: 100%;
+  height: 100%;
+ }
 /*Заголовок страницы*/
 .body2__header {
 
@@ -179,6 +182,11 @@ hr {
   margin-left: 131px;
   margin-top: 30px;
 }
+
 .button-additional-service{
   margin-left: 247px;
 }
+
+.span{
+}
+

@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68cf96bb-c7d6-42c0-bb6c-43e91c6bd680" name="Default Changelist" comment="закночли адаптивность и первый слайд 12">
+    <list default="true" id="68cf96bb-c7d6-42c0-bb6c-43e91c6bd680" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/mail.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/body.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/body2.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/body2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/body.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/body2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/body2_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/body2_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/body2_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/body2_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/body2_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -76,10 +89,7 @@
       <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (app.py)">
-    <configuration name="body2_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Flask/templates/body2_2.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Flask server.untitled">
     <configuration name="body2_3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Flask/templates/body2_3.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -87,6 +97,21 @@
       <method v="2" />
     </configuration>
     <configuration name="body2.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Flask/templates/body2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (__init__.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="target" value="$PROJECT_DIR$/__init__.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
@@ -133,17 +158,17 @@
       <item itemvalue="Flask server.untitled" />
       <item itemvalue="Flask server.Flask (app.py)" />
       <item itemvalue="JavaScript Debug.body2.html (1)" />
-      <item itemvalue="JavaScript Debug.body2_2.html" />
       <item itemvalue="JavaScript Debug.body2_3.html" />
       <item itemvalue="JavaScript Debug.body2_5.html" />
+      <item itemvalue="Flask server.Flask (__init__.py)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Flask server.Flask (__init__.py)" />
         <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="JavaScript Debug.body2_5.html" />
         <item itemvalue="JavaScript Debug.body2.html (1)" />
         <item itemvalue="JavaScript Debug.body2_3.html" />
-        <item itemvalue="JavaScript Debug.body2_2.html" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +191,7 @@
       <workItem from="1596151736933" duration="67000" />
       <workItem from="1596151932017" duration="295000" />
       <workItem from="1596229778149" duration="820000" />
-      <workItem from="1596234464361" duration="69606000" />
+      <workItem from="1596234464361" duration="87192000" />
     </task>
     <task id="LOCAL-00001" summary="*">
       <created>1596123662845</created>
@@ -252,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597193257775</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="закночли адаптивность и первый слайд 12">
+      <created>1597193968032</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597193968032</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,46 +310,46 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="513" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.822@0.23.1440.822" timestamp="1596246292244" />
-    <state x="171" y="49" key="CommitChangelistDialog2" timestamp="1597193694074">
+    <state x="171" y="49" key="CommitChangelistDialog2" timestamp="1597193967837">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="171" y="49" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1597193694074" />
+    <state x="171" y="49" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1597193967837" />
     <state x="12" y="107" key="DiffContextDialog" timestamp="1597182632130">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="12" y="107" key="DiffContextDialog/0.23.1440.822@0.23.1440.822" timestamp="1597182632130" />
-    <state width="587" height="198" key="GridCell.Tab.0.bottom" timestamp="1597193228662">
+    <state width="595" height="187" key="GridCell.Tab.0.bottom" timestamp="1597758514956">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="587" height="198" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1597193228662" />
-    <state width="587" height="198" key="GridCell.Tab.0.center" timestamp="1597193228661">
+    <state width="595" height="187" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1597758514956" />
+    <state width="595" height="187" key="GridCell.Tab.0.center" timestamp="1597758514955">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="587" height="198" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1597193228661" />
-    <state width="587" height="198" key="GridCell.Tab.0.left" timestamp="1597193228661">
+    <state width="595" height="187" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1597758514955" />
+    <state width="595" height="187" key="GridCell.Tab.0.left" timestamp="1597758514954">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="587" height="198" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1597193228661" />
-    <state width="587" height="198" key="GridCell.Tab.0.right" timestamp="1597193228662">
+    <state width="595" height="187" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1597758514954" />
+    <state width="595" height="187" key="GridCell.Tab.0.right" timestamp="1597758514955">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="587" height="198" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1597193228662" />
-    <state width="1281" height="194" key="GridCell.Tab.1.bottom" timestamp="1597179997483">
+    <state width="595" height="187" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1597758514955" />
+    <state width="396" height="194" key="GridCell.Tab.1.bottom" timestamp="1597448629098">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1281" height="194" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1597179997483" />
-    <state width="1281" height="194" key="GridCell.Tab.1.center" timestamp="1597179997482">
+    <state width="396" height="194" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1597448629098" />
+    <state width="396" height="194" key="GridCell.Tab.1.center" timestamp="1597448629097">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1281" height="194" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1597179997482" />
-    <state width="1281" height="194" key="GridCell.Tab.1.left" timestamp="1597179997482">
+    <state width="396" height="194" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1597448629097" />
+    <state width="396" height="194" key="GridCell.Tab.1.left" timestamp="1597448629097">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1281" height="194" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1597179997482" />
-    <state width="1281" height="194" key="GridCell.Tab.1.right" timestamp="1597179997483">
+    <state width="396" height="194" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1597448629097" />
+    <state width="396" height="194" key="GridCell.Tab.1.right" timestamp="1597448629097">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1281" height="194" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1597179997483" />
+    <state width="396" height="194" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1597448629097" />
     <state width="1011" height="263" key="GridCell.Tab.2.bottom" timestamp="1595717709290">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -342,10 +374,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="0" y="123" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1596979093867" />
-    <state x="507" y="158" key="Vcs.Push.Dialog.v2" timestamp="1597193699555">
+    <state x="507" y="158" key="Vcs.Push.Dialog.v2" timestamp="1597193977450">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="507" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1597193699555" />
+    <state x="507" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1597193977450" />
     <state x="705" y="342" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596849450709">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -354,15 +386,16 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="742" y="138" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.822@0.23.1440.822" timestamp="1596228701155" />
-    <state x="438" y="169" width="670" height="435" key="search.everywhere.popup" timestamp="1597191806833">
+    <state x="438" y="169" width="670" height="435" key="search.everywhere.popup" timestamp="1597615846988">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="438" y="169" width="670" height="435" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1597191806833" />
+    <state x="438" y="169" width="670" height="435" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1597615846988" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1596033451514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flask$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1597193228656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flask$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1597519316187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1595703139036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flask$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1597100818532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flask$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1597758514943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flask$Flask____init___py_.coverage" NAME="Flask (__init__.py) Coverage Results" MODIFIED="1597616683099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
