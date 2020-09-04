@@ -18,7 +18,16 @@
      <link rel="stylesheet" href="../static/css/header.css" />
   </head>
 
-
+<script>
+ function collapsElement(id) {
+ if ( document.getElementById(id).style.display != "none" ) {
+ document.getElementById(id).style.display = 'none';
+ }
+ else {
+ document.getElementById(id).style.display = '';
+ }
+ }
+ </script>
 
 <body>
 
@@ -40,16 +49,22 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="../static/img/slide_1.jpg" alt="First slide" />
-        <div class="carousel-caption " style="top: 20%;width:70%;">ООО «Центр Сертификации «СИСТЕМА» – один из стабильных российских представителей рынка в сфере разработки технической документации.
+
+        <div class="carousel-caption " >
+            <img src="../static/img/Logotip_Sistema.svg" style="width: 70%"><br>
+            ООО «Центр Сертификации «СИСТЕМА» – один из стабильных российских представителей рынка в сфере разработки технической документации.
             <a href="/#sistem"><div class="bottomCarusel">Отправить заявку</div></a>
         </div></div>
     <div class="carousel-item" >
       <img class="d-block w-100" src="../static/img/slide_2.jpg" alt="Second slide" />
-          <div class="carousel-caption" style="top: 20%;width:70%;">Руководство ООО «Центр Сертификации «СИСТЕМА» уделяет большое внимание регулярному повышению квалификации специалистов и обучению новых сотрудников, благодаря чему все работы выполняются качественно, оперативно и по оптимальным ценам.
+          <div class="carousel-caption">
+              <img src="../static/img/Logotip_Sistema.svg "  style="width: 70%"><br>
+              Руководство ООО «Центр Сертификации «СИСТЕМА» уделяет большое внимание регулярному повышению квалификации специалистов и обучению новых сотрудников, благодаря чему все работы выполняются качественно, оперативно и по оптимальным ценам.
               <a href="/#sistem"><div class="bottomCarusel">Отправить заявку</div></a>  </div></div>
     <div class="carousel-item">
       <img class="d-block w-100" src="../static/img/slide_3.jpg" alt="Third slide" />
-          <div class="carousel-caption" style="top: 20%;width:70%;"> Среди наших клиентов – компании из всех городов Россиин, в том числе крупнейшие Российские производители. Многолетний опыт работы и более 50 000 выполненных заказов обеспечили нам репутацию профессионального и надежного партнера.
+          <div class="carousel-caption" ><img src="../static/img/Logotip_Sistema.svg"  style="width: 70%"><br>
+              Среди наших клиентов – компании из всех городов Россиин, в том числе крупнейшие Российские производители. Многолетний опыт работы и более 50 000 выполненных заказов обеспечили нам репутацию профессионального и надежного партнера.
               <a href="/#sistem"><div class="bottomCarusel">Отправить заявку</div></a>
     </div>
   </div>
@@ -59,7 +74,7 @@
     role="button"
     data-slide="prev"
   >
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
     <span class="sr-only">Previous</span>
   </a>
   <a
@@ -68,7 +83,7 @@
     role="button"
     data-slide="next"
   >
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
     <span class="sr-only">Next</span>
   </a>
   </div>
@@ -119,29 +134,87 @@
     <div class="blocElement">
     <div class="dlin row col-xl-12">
         <div class="element"><div class="hed" id="element1">Разработка технической и эксплуатационной документации</div> <p>Технические условия</p>  <p>Обоснование безопасности </p>  <p>Паспорт продукции</p>  <p>Руководство по эксплуатации</p>
-            <div class="button"><a  href="/documents/1"><img src="../static/img/strelki_black.svg"  style="height: 50px"></a></div></div>
-        <div class="element"><div class="hed" id="element2"> Разработка паспорта безопасности на химическую продукцию</div><p>Паспорт безопасности для сопровождения химической продукции на экспорт</p> <p>Паспорт безопасности химической продукции по ГОСТ 30333-2007</p>    <div class="button"><a  href="/documents/2"><img src="../static/img/strelki_black.svg" style="height: 50px"></a></div></div>
-        <div class="element" id="services"><div class="hed" id="element3">Разработка документации ХАССП</div> <p>Разработка документации ХАССП</p> <p>Аудит пищевого производства под заход в сети: Пятерочка, Окей, Ашан, Лента</p>    <div class="button" ><a  href="/documents/3"><img src="../static/img/strelki_black.svg" style="height: 50px"></a></div></div>
-        <div class="element"><div class="hed" id="element4">Сертификация и Декларирование</div><p>Сертификация и декларирование по ТР ТС</p><p>Сертификация и декларирование по ГОСТ Р </p><p>Добровольная сертификация</p>    <div class="button"><a  href="/documents/4"><img src="../static/img/strelki_black.svg" style="height: 50px"></a></div></div>
-        <div class="element"><div class="hed" id="element5">Повышение квалификации</div><p>Пожарно-технический минимум</p><p>Охрана труда</p><p>Охрана труда на высоте</p><p>Аттестация по электробезопасности</p>    <div class="button"><a  href="/documents/5"><img src="../static/img/strelki_black.svg" style="height: 50px"></a></div></div>
-        <div class="element"><div class="hed" id="element6">Дополнительные услуги партнерам</div><p>Бизнесконсалтинг</p><p>Тренинг</p>    <div class="button"><a  href="/documents/6"><img src="../static/img/strelki_black.svg" style="height: 50px"></a></div></div>
+            <div class="button"><a  href="/documents/1"><img src="../static/img/strelki_black.jpg"  style="height: 50px"></a></div></div>
+        <div class="element"><div class="hed" id="element2"> Разработка паспорта безопасности на химическую продукцию</div><p>Паспорт безопасности для сопровождения химической продукции на экспорт</p> <p>Паспорт безопасности химической продукции по ГОСТ 30333-2007</p>    <div class="button"><a  href="/documents/2"><img src="../static/img/strelki_black.jpg" style="height: 50px"></a></div></div>
+        <div class="element" id="services"><div class="hed" id="element3">Разработка документации ХАССП</div> <p>Разработка документации ХАССП</p> <p>Аудит пищевого производства под заход в сети: Пятерочка, Окей, Ашан, Лента</p>    <div class="button" ><a  href="/documents/3"><img src="../static/img/strelki_black.jpg" style="height: 50px"></a></div></div>
+        <div class="element"><div class="hed" id="element4">Сертификация и Декларирование</div><p>Сертификация и декларирование по ТР ТС</p><p>Сертификация и декларирование по ГОСТ Р </p><p>Добровольная сертификация</p>    <div class="button"><a  href="/documents/4"><img src="../static/img/strelki_black.jpg" style="height: 50px"></a></div></div>
+        <div class="element"><div class="hed" id="element5">Повышение квалификации</div><p>Пожарно-технический минимум</p><p>Охрана труда</p><p>Охрана труда на высоте</p><p>Аттестация по электробезопасности</p>    <div class="button"><a  href="/documents/5"><img src="../static/img/strelki_black.jpg" style="height: 50px"></a></div></div>
+        <div class="element"><div class="hed" id="element6">Дополнительные услуги партнерам</div><p>Бизнесконсалтинг</p><p>Тренинг</p>    <div class="button"><a  href="/documents/6"><img src="../static/img/strelki_black.jpg" style="height: 50px"></a></div></div>
     </div>
-
+        <div class="mobil">
+            <h4>Наши услуги</h4>
+            <hr>
+            <div class="services">Разработка технической и эксплуатационной документации
+                <a href="/documents/1" class="strelkaa"><img src="../static/img/strelki_black.svg" class="mobil_strelka"></a>
+                <a  class="strelkaa_mobil" href="javascript:collapsElement('identifikator')" title="" rel="nofollow"><img src="../static/img/strelki_black.svg" class="mobil_strelka"></a></div>
+                <div id="identifikator" style="display: none">
+                <div class="parent col-xl-7 col-sm-12 col-md-7">
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_1"><img src="../static/img/body2/1.1.png" alt="Руководство по эксплуатации" class="body2_img"></button></div>
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_2"><img src="../static/img/body2/1.2.png" alt="Паспорт продукции" class="body2_img"></button></div>
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_3"><img src="../static/img/body2/1.3.png" alt="Обоснование безопасности" class="body2_img"></button></div>
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_4"><img src="../static/img/body2/1.4.png" alt="Технические условия" class="body2_img"></button></div>
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_5"><img src="../static/img/body2/1.5.png" alt="Технические условия" class="body2_img"></button></div>
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_6"><img src="../static/img/body2/1.6.jpg" alt="Технические условия" class="body2_img"></button></div>
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_7"><img src="../static/img/body2/1.7.jpg" alt="Обоснование безопасности" class="body2_img"></button></div>
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_8"><img src="../static/img/body2/1.8.jpg" alt="Паспорт продукции" class="body2_img"></button></div>
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_9"><img src="../static/img/body2/1.9.jpg" alt="Руководство по эксплуатации" class="body2_img"></button></div>
+      </div>
+                </div>
+                <hr>
+                <div class="services">Разработка паспорта безопасности на химическую продукцию
+                <a href="/documents/2" class="strelkaa"><img src="../static/img/strelki_black.svg" class="mobil_strelka"></a>
+                <a  class="strelkaa_mobil" href="javascript:collapsElement('identifikator1')" title="" rel="nofollow"><img src="../static/img/strelki_black.svg" class="mobil_strelka"></a></div>
+                <div id="identifikator1" style="display: none">
+                <div class="parent col-xl-7 col-sm-12 col-md-7">
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_1"><img src="../static/img/body2/2.1.png" alt="Паспорт безопасности для сопровождения химической продукции на экспорт (SDS)" class="body2_img"></button></div>
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_2"><img src="../static/img/body2/2.2.png" alt="Паспорт безопасности химической продукции по ГОСТ 30333-2007" class="body2_img"></button></div>
+      </div>
+                </div>
+                <hr>
+                <div class="services">Разработка документации ХАССП
+                <a href="/documents/3" class="strelkaa"><img src="../static/img/strelki_black.svg" class="mobil_strelka"></a>
+                <a  class="strelkaa_mobil" href="javascript:collapsElement('identifikator2')" title="" rel="nofollow"><img src="../static/img/strelki_black.svg" class="mobil_strelka"></a></div>
+                <div id="identifikator2" style="display: none">
+                <div class="parent col-xl-7 col-sm-12 col-md-7">
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_1"><img src="../static/img/body2/3.1.png" alt="ХАССП описание" class="body2_img"></button></div>
+         <div class="colo"><button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop_2"><img src="../static/img/body2/3.2.png" alt="Результат работы по ХАССП" class="body2_img"></button></div>
+       </div>
+                </div>
+                <hr>
+                <div class="services">Сертификация и Декларирование
+                <a href="/documents/4" class="strelkaa"><img src="../static/img/strelki_black.svg" class="mobil_strelka"></a>
+                <a  class="strelkaa_mobil" href="javascript:collapsElement('identifikator3')" title="" rel="nofollow"><img src="../static/img/strelki_black.svg" class="mobil_strelka"></a></div>
+                <div id="identifikator3" style="display: none">
+                <p>Текст текст текст текст</p>
+                </div>
+                <hr>
+                <div class="services">Повышение квалификации
+                <a href="/documents/5" class="strelkaa"><img src="../static/img/strelki_black.svg" class="mobil_strelka"></a>
+                <a  class="strelkaa_mobil" href="javascript:collapsElement('identifikator4')" title="" rel="nofollow"><img src="../static/img/strelki_black.svg" class="mobil_strelka"></a></div>
+                <div id="identifikator4" style="display: none">
+                <p>Текст текст текст текст</p>
+                </div><hr>
+                <div class="services">Дополнительные услуги партнерам
+                <a href="/documents/6" class="strelkaa"><img src="../static/img/strelki_black.svg" class="mobil_strelka"></a>
+                <a  class="strelkaa_mobil" href="javascript:collapsElement('identifikator5')" title="" rel="nofollow"><img src="../static/img/strelki_black.svg" class="mobil_strelka"></a></div>
+                <div id="identifikator5" style="display: none">
+                <p>Текст текст текст текст</p>
+                </div>
+        </div>
     </div>
 <div class="divImages" id="sistem">
  <img src="../static/img/Logotip_Sistema.svg" class="sistemImages" alt="background" width="500">
 <div class="sistem">
-    <div class="sistemBlock row" style="margin: 10%">
+    <div class="sistemBlock row" style="margin: 17%">
     <div class="sistemContent col-5" style="margin-left:3% ">
         <div class="textBlock1">
         <h5 style="margin-bottom:16px ">Cвяжитесь с нами</h5>
-            <form action="" method="post">
-         <input class="vodText" type="text" size="45" placeholder="ФИО">
-         <input class="vodText" type="text" size="45" placeholder="Телефон">
-         <input class="vodText" type="text" size="45" placeholder="E-mail">
-        <input class="vodTextBig" type="text" size="45" placeholder="Наименование продукци Область приенения">
-
-          <div class="mr"> <div class="botImages">Отправить заявку</div></div>
+             <form action = "/result" method = "POST" class="conect">
+            <p>ФИО <input type = "text" name = "username" class="fm" /></p>
+            <p>Телефон <input type = "text" name = "phone" class="fm"/></p>
+            <p>Email <input type = "text" name = "mail" class="fm"/></p>
+            <p>Текст <input type ="text" name = "body"class="fm"/></p>
+         <p><input type = "submit" value = "submit" class="bottomCarusel" style="color: white"/></p>
             </form>
         </div>
     </div>
@@ -163,16 +236,47 @@
     </div>
     </div>
 
+
+    <div class="sistemBlock_mini row" style="margin: 17%">
+    <div class="sistemContent col-12" style="margin-left:3% ">
+        <div class="textBlock1">
+        <h5 style="margin-bottom:16px ">Cвяжитесь с нами</h5>
+             <form action = "/result" method = "POST" class="conect">
+            <p>ФИО <input type = "text" name = "username" class="fm" /></p>
+            <p>Телефон <input type = "text" name = "phone" class="fm"/></p>
+            <p>Email <input type = "text" name = "mail" class="fm"/></p>
+            <p>Текст <input type ="text" name = "body"class="fm"/></p>
+         <p><input type = "submit" value = "submit" class="bottomCarusel" style="color: white"/></p>
+            </form>
+        </div>
+    </div>
+
+    <div class=" col-12" id="CONTACTS">
+        <p class="textBlock">
+        Юридический адрес : 193318, РФ, Санкт-Петербург,
+        ул. Ворошилова, дом 2, офис 617
+        Фактический адрес : 193318, РФ, Санкт-Петербург,
+        ул. Ворошилова, дом 2, офис 617
+        ОГРН : 1157847454412
+        ИНН/КПП : 7806215068/ 780601001
+        р/с : 40702810332200001402
+        к/с : 30101810600000000786
+        БИК: 044030786
+        Банк Филиал «Санкт-Петербургский» АО
+        «АЛЬФА-БАНК»
+        </p>
+    </div>
+    </div>
+
+
+
+
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="dropdown-menu">
-  <a class="dropdown-item" href="#">Regular link</a>
-  <a class="dropdown-item active" href="#">Active link</a>
-  <a class="dropdown-item" href="#">Another link</a>
-</div>
+
 
    {% include 'footer.html' %}
 </main>
