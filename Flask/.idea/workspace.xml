@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68cf96bb-c7d6-42c0-bb6c-43e91c6bd680" name="Default Changelist" comment="закночли адаптивность и первый слайд 12">
-      <change afterPath="$PROJECT_DIR$/static/img/2slayd_2variant.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/3slayd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/slayd1.jpg" afterDir="false" />
+    <list default="true" id="68cf96bb-c7d6-42c0-bb6c-43e91c6bd680" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/body.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/body.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/body2_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2_6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +181,7 @@
       <workItem from="1596151932017" duration="295000" />
       <workItem from="1596229778149" duration="820000" />
       <workItem from="1596234464361" duration="135151000" />
-      <workItem from="1598785066240" duration="26453000" />
+      <workItem from="1598785066240" duration="26726000" />
     </task>
     <task id="LOCAL-00001" summary="*">
       <created>1596123662845</created>
@@ -301,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599213268836</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="закночли адаптивность и первый слайд 12">
+      <created>1599217021928</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599217021928</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,10 +328,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="513" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.822@0.23.1440.822" timestamp="1598785190878" />
-    <state x="171" y="49" key="CommitChangelistDialog2" timestamp="1599213278896">
+    <state x="171" y="49" key="CommitChangelistDialog2" timestamp="1599217021583">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="171" y="49" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1599213278896" />
+    <state x="171" y="49" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1599217021583" />
     <state x="12" y="107" key="DiffContextDialog" timestamp="1597182632130">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -391,10 +392,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="0" y="123" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1596979093867" />
-    <state x="507" y="158" key="Vcs.Push.Dialog.v2" timestamp="1599213283812">
+    <state x="507" y="158" key="Vcs.Push.Dialog.v2" timestamp="1599217027154">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="507" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1599213283812" />
+    <state x="507" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1599217027154" />
     <state x="231" y="124" width="1046" height="622" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598321005689">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
