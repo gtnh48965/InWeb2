@@ -1,30 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68cf96bb-c7d6-42c0-bb6c-43e91c6bd680" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/Rectangle 60-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/dlya_sayta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/fon2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/mobil_fon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/strelki_black.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
+    <list default="true" id="68cf96bb-c7d6-42c0-bb6c-43e91c6bd680" name="Default Changelist" comment="закночли адаптивность и первый слайд 12">
+      <change afterPath="$PROJECT_DIR$/static/img/2slayd_2variant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/3slayd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/slayd1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/body.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/body2.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/body2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/button_arrow_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/slide_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/slide_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/slide_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/slide_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/slide_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/slide_3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/body.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/body2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/body2_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/body2_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/body2_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/body2_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2_5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/body2_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/body2_6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +79,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/img" />
+      <recent name="$PROJECT_DIR$/static/img/body2" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/static/images" />
     </key>
   </component>
   <component name="RunManager" selected="Flask server.untitled">
@@ -203,7 +187,7 @@
       <workItem from="1596151932017" duration="295000" />
       <workItem from="1596229778149" duration="820000" />
       <workItem from="1596234464361" duration="135151000" />
-      <workItem from="1598785066240" duration="24555000" />
+      <workItem from="1598785066240" duration="26453000" />
     </task>
     <task id="LOCAL-00001" summary="*">
       <created>1596123662845</created>
@@ -310,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597765659411</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="закночли адаптивность и первый слайд 12">
+      <created>1599213268836</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599213268836</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,46 +327,46 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="513" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.822@0.23.1440.822" timestamp="1598785190878" />
-    <state x="171" y="49" key="CommitChangelistDialog2" timestamp="1597765658953">
+    <state x="171" y="49" key="CommitChangelistDialog2" timestamp="1599213278896">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="171" y="49" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1597765658953" />
+    <state x="171" y="49" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1599213278896" />
     <state x="12" y="107" key="DiffContextDialog" timestamp="1597182632130">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="12" y="107" key="DiffContextDialog/0.23.1440.822@0.23.1440.822" timestamp="1597182632130" />
-    <state width="502" height="204" key="GridCell.Tab.0.bottom" timestamp="1599212795659">
+    <state width="1013" height="203" key="GridCell.Tab.0.bottom" timestamp="1599217009410">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="502" height="204" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1599212795659" />
-    <state width="502" height="204" key="GridCell.Tab.0.center" timestamp="1599212795659">
+    <state width="1013" height="203" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1599217009410" />
+    <state width="1013" height="203" key="GridCell.Tab.0.center" timestamp="1599217009409">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="502" height="204" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1599212795659" />
-    <state width="502" height="204" key="GridCell.Tab.0.left" timestamp="1599212795658">
+    <state width="1013" height="203" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1599217009409" />
+    <state width="1013" height="203" key="GridCell.Tab.0.left" timestamp="1599217009409">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="502" height="204" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1599212795658" />
-    <state width="502" height="204" key="GridCell.Tab.0.right" timestamp="1599212795659">
+    <state width="1013" height="203" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1599217009409" />
+    <state width="1013" height="203" key="GridCell.Tab.0.right" timestamp="1599217009410">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="502" height="204" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1599212795659" />
-    <state width="465" height="262" key="GridCell.Tab.1.bottom" timestamp="1598784828202">
+    <state width="1013" height="203" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1599217009410" />
+    <state width="1013" height="262" key="GridCell.Tab.1.bottom" timestamp="1599217007436">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="465" height="262" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1598784828202" />
-    <state width="465" height="262" key="GridCell.Tab.1.center" timestamp="1598784828201">
+    <state width="1013" height="262" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1599217007436" />
+    <state width="1013" height="262" key="GridCell.Tab.1.center" timestamp="1599217007436">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="465" height="262" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1598784828201" />
-    <state width="465" height="262" key="GridCell.Tab.1.left" timestamp="1598784828201">
+    <state width="1013" height="262" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1599217007436" />
+    <state width="1013" height="262" key="GridCell.Tab.1.left" timestamp="1599217007435">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="465" height="262" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1598784828201" />
-    <state width="465" height="262" key="GridCell.Tab.1.right" timestamp="1598784828201">
+    <state width="1013" height="262" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1599217007435" />
+    <state width="1013" height="262" key="GridCell.Tab.1.right" timestamp="1599217007436">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="465" height="262" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1598784828201" />
+    <state width="1013" height="262" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1599217007436" />
     <state width="1011" height="263" key="GridCell.Tab.2.bottom" timestamp="1595717709290">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -400,10 +391,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="0" y="123" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1596979093867" />
-    <state x="507" y="158" key="Vcs.Push.Dialog.v2" timestamp="1597765668911">
+    <state x="507" y="158" key="Vcs.Push.Dialog.v2" timestamp="1599213283812">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="507" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1597765668911" />
+    <state x="507" y="158" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1599213283812" />
     <state x="231" y="124" width="1046" height="622" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598321005689">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
@@ -416,16 +407,16 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="742" y="138" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.822@0.23.1440.822" timestamp="1596228701155" />
-    <state x="438" y="169" width="670" height="435" key="search.everywhere.popup" timestamp="1599173674544">
+    <state x="438" y="169" width="670" height="435" key="search.everywhere.popup" timestamp="1599216439569">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state x="438" y="169" width="670" height="435" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1599173674544" />
+    <state x="438" y="169" width="670" height="435" key="search.everywhere.popup/0.23.1440.822@0.23.1440.822" timestamp="1599216439569" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1596033451514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flask$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1598225067817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1595703139036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flask$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1599212795649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flask$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1599217009400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flask$Flask____init___py_.coverage" NAME="Flask (__init__.py) Coverage Results" MODIFIED="1598320464147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -346,7 +346,7 @@ position: absolute;
   overflow: hidden;
 
 }
-@media screen and (min-width: 415px){
+@media screen and (min-width: 715px){
     .strelkaa_mobil{ display: none;
 
     }
@@ -354,7 +354,7 @@ position: absolute;
         display: none;
     }
 }
-@media screen and (max-width:414px) {
+@media screen and (max-width:714px) {
     .carousel-caption {
         width: 100%;
     }
