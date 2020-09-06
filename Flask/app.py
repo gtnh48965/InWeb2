@@ -57,13 +57,15 @@ def result():
 
     phone = str(request.form.get('phone'))
     maill = request.form.get('mail')
-    body = request.form.get('body')
 
     msg = Message(username, sender='0148965@gmail.com', recipients=[maill])
-    msg.body = (body+'_'+phone)
+    msg.body = (phone)
     mail.send(msg)
     return render_template("body.html")
 
+@app.errorhandler(500)
+def pageNotFound(error):
+    return render_template("505.html")
 # @app.route('/result',methods = ['POST', 'GET'])
 # def result():
 #    if request.method == 'POST':

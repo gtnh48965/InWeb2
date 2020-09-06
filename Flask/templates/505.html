@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>System's Body</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/css/eror.css" />
+     <link rel="stylesheet" href="../static/css/footer.css" />
+     <link rel="stylesheet" href="../static/css/header.css" />
+     <link rel="stylesheet" href="../static/css/body.css" />
+  </head>
+<body>
+ {% include 'header.html' %}
+    <div class="outer" style="height:100%; width: 100%; margin-top: 20%">
+  <span class="inner" >
+      Ваши данные были введены некорректно, попробуйте снова
+      <a href="/#sistem"><div class="bottomCarusel" style="color: white; margin: 0 auto ">Отправить заявку</div></a>
+      </span>
+
+    </div>
+
+{% include 'footer.html' %}
+</body>

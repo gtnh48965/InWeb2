@@ -422,9 +422,10 @@ background:url("../img/background_1.jpg");
 .fon{
 background:url("../img/background_2.jpg");
     height: 100%;
+    padding-bottom:17% ;
 }
 .carousel-caption{
-font-size: 1vw;
+font-size: 1.8vw;
     color: black;
     width: 40%; !important;
     top: 1%;
@@ -460,6 +461,11 @@ background: rgba(21, 54, 117, 0.5);
 }
 .button a img:hover{
 background-color: #153675;
+}
+@media screen and (min-width: 800px) {
+    .mobil{
+        display: none;
+    }
 }
 @media screen and (max-width: 800px) {
     .dlin{
@@ -570,3 +576,6 @@ vertical-align: top;
     color: #7f8c8d;
 }
 
+.textBlock h5{
+    color: black;
+}

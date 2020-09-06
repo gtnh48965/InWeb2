@@ -14,5 +14,4 @@ class SignupForm(FlaskForm):
     username = StringField('Имя пользователя', validators= [DataRequired()])
     phone = StringField('Телефон', validators=[NumberRange(min=9, max=16)])
     mail = StringField('E-mail', validators=[DataRequired()])
-    body = StringField('Text', validators=[DataRequired()])
     submit = SubmitField('Войти')
