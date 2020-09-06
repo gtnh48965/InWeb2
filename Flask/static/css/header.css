@@ -38,7 +38,7 @@ nav {
   padding: 11px 40px;
   font-size: 15px;
   line-height: 18px;
-    background-image: linear-gradient(currentColor, currentColor);
+    /*background-image: linear-gradient(currentColor, currentColor);*/
 }
 a:visited {
   color: white;
